@@ -1,0 +1,10 @@
+/**
+ * {{moduleName}}
+ */
+require('dotenv').config();
+
+const { concat } = require('ramda');
+
+const sayHello = concat(`${process.env.GREETING} `);
+
+module.exports = { sayHello };

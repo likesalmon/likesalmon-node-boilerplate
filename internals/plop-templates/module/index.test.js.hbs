@@ -1,0 +1,15 @@
+/**
+ * {{moduleName}} tests
+ */
+require('dotenv').config();
+
+const { sayHello } = require('../index');
+
+describe('{{moduleName}}', () => {
+  describe('sayHello', () => {
+    it('should concat greeting with input', async () => {
+      const input = 'Joe';
+      expect(sayHello(input)).toBe(`${process.env.GREETING} ${input}`);
+    });
+  });
+});

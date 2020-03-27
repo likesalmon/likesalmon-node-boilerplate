@@ -1,0 +1,32 @@
+{
+  "name": "node-boilerplate",
+  "version": "1.0.0",
+  "description": "Let's get this party started right. Let's get this party started quickly, right?",
+  "main": "index.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "generate": "plop",
+    "test": "jest --watch --runInBand",
+    "test:once": "jest"
+  },
+  "author": "Ammon Morris <ammon.morris@soul-cycle.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^6.6.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "plop": "^2.6.0",
+    "prettier": "^1.19.1",
+    "prettier-eslint": "^9.0.1",
+    "prettier-eslint-cli": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ramda": "^0.27.0"
+  }
+}
