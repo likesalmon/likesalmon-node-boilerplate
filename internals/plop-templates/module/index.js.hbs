@@ -2,9 +2,12 @@
  * {{moduleName}}
  */
 require('dotenv').config();
+const { T } = require('ramda');
+const logger = require('../utils/logger');
 
-const { concat } = require('ramda');
+const main = () => {
+  logger.info('This is {{moduleName}}.', { moduleName: '{{ moduleName }}'});
+  return T();
+};
 
-const sayHello = concat(`${process.env.GREETING} `);
-
-module.exports = { sayHello };
+module.exports = { main };
