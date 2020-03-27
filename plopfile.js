@@ -8,13 +8,6 @@ module.exports = plop => {
         message: 'Module Name',
         default: 'my-module',
       },
-      {
-        type: 'input',
-        name: 'description',
-        message: 'Description',
-        default:
-          'Deploys a fleet of winged unicorns to battle the forces of darkness.',
-      },
     ],
     actions: [
       {
