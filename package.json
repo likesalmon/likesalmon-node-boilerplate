@@ -1,7 +1,7 @@
 {
-  "name": "node-boilerplate",
+  "name": "likesalmon-node-boilerplate",
   "version": "1.0.0",
-  "description": "Let's get this party started right. Let's get this party started quickly, right?",
+  "description": "Starter for bare-bones NodeJS projects.",
   "main": "index.js",
   "engines": {
     "node": ">=12"
