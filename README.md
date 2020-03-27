@@ -1,6 +1,6 @@
 # Node Boilerplate
 
-A boilerplate for NodeJS projects.
+Starter for bare-bones NodeJS projects.
 
 ## Quick Start
 
