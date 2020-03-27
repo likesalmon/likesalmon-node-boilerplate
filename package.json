@@ -7,6 +7,7 @@
     "node": ">=12"
   },
   "scripts": {
+    "start": "node index.js | jq '.'",
     "generate": "plop",
     "test": "jest --watch --runInBand",
     "test:once": "jest"
@@ -27,6 +28,7 @@
   },
   "dependencies": {
     "dotenv": "^8.2.0",
-    "ramda": "^0.27.0"
+    "ramda": "^0.27.0",
+    "winston": "^3.2.1"
   }
 }
