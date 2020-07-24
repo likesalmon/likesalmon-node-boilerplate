@@ -1,13 +1,14 @@
 /**
- * {{moduleName}}
+ *
+ *
+ * {{ kebabCase moduleName }}
+ *
+ *
  */
-require('dotenv').config();
-const { T } = require('ramda');
 const logger = require('../utils/logger');
 
-const main = () => {
-  logger.info('This is {{moduleName}}.', { moduleName: '{{ moduleName }}'});
-  return T();
+const {{ camelCase moduleName }} = () => {
+  logger.info("This is {{ camelCase moduleName }}.", { moduleName: "{{ kebabCase moduleName }}" });
 };
 
-module.exports = { main };
+module.exports = {{ camelCase moduleName }};

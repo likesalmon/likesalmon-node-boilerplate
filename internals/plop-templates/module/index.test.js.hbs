@@ -1,14 +1,16 @@
 /**
- * {{moduleName}} tests
+ *
+ *
+ * Tests for {{ kebabCase moduleName }}
+ *
+ *
  */
-require('dotenv').config();
+const {{ camelCase moduleName }} = require('./index');
 
-const { main } = require('../index');
-
-describe('{{moduleName}}', () => {
-  describe('main', () => {
-    it('should return true', async () => {
-      expect(main()).toBe(true);
-    });
+describe("{{ camelCase moduleName }}", () => {
+  it("should not error", () => {
+    const spy = jest.spyOn(global.console, "error");
+    {{ camelCase moduleName }}();
+    expect(spy).not.toHaveBeenCalled();
   });
 });

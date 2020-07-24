@@ -2,7 +2,7 @@
   "name": "likesalmon-node-boilerplate",
   "version": "1.0.0",
   "description": "Starter for bare-bones NodeJS projects.",
-  "main": "index.js",
+  "main": "src/index.js",
   "engines": {
     "node": ">=12"
   },
@@ -13,7 +13,7 @@
     "test:once": "jest"
   },
   "author": "Ammon Morris <ammon.morris@soul-cycle.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.2.0",
